@@ -7,13 +7,13 @@ Notes on Code Signing (Certs, Keys, etc.)
 PEM file
 -------
 
-Can contain several certificates and even the private key.
+The name comes from Privacy Enchanced Email. It can contain several certificates and even the private key.
 
 
 
 
 
-
+[Privacy-enchanced Electronic Mail - Wikipedia Link](http://en.wikipedia.org/wiki/Privacy-enhanced_Electronic_Mail)
 
 
 
@@ -27,3 +27,4 @@ Resources
 
 * Stackoverflow answer on 'What is a PEM file...'
 [Stackoverflow answer](http://serverfault.com/a/9717)
+* http://how2ssl.com/articles/working_with_pem_files/
