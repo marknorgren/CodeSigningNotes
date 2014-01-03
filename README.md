@@ -27,4 +27,5 @@ Resources
 
 * Stackoverflow answer on 'What is a PEM file...'
 [Stackoverflow answer](http://serverfault.com/a/9717)
+* [OpenSSL tips and common commands](http://how2ssl.com/articles/openssl_commands_and_tips/)
 * http://how2ssl.com/articles/working_with_pem_files/
