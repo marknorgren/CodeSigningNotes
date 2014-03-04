@@ -24,6 +24,9 @@ X.509
 p12 file
 --------
 
+Get information about a p12 file
+`keytool -list -v -keystore mykeystore.p12 -storetype PKCS12 -storepass 123456`
+
 `openssl pkcs12 -in <my pkcs12 file>.p12 -nodes -passin pass:<passphrase, or blank> |openssl x509 -noout -fingerprint
 `
 
