@@ -31,8 +31,14 @@ Get information about a p12 file
 `openssl pkcs12 -in <my pkcs12 file>.p12 -nodes -passin pass:<passphrase, or blank> |openssl x509 -noout -fingerprint
 `
 
+HowTo...
+========
 
-
+* Import public/private keys into Mac OS X Keychain
+`
+security import priv_key.p12 -k ~/Library/Keychains/login.keychain
+security import pub_key.pem -k ~/Library/Keychains/login.keychain
+`
 
 Resources
 ==============
