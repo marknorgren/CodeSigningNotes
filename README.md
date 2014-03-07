@@ -34,9 +34,10 @@ Get information about a p12 file
 HowTo...
 ========
 
-* Import public/private keys into Mac OS X Keychain
+* Import public/private keys into Mac OS X Keychain (don't just double click them!)
 `
 security import priv_key.p12 -k ~/Library/Keychains/login.keychain
+
 security import pub_key.pem -k ~/Library/Keychains/login.keychain
 `
 
