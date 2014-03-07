@@ -31,6 +31,12 @@ Get information about a p12 file
 `openssl pkcs12 -in <my pkcs12 file>.p12 -nodes -passin pass:<passphrase, or blank> |openssl x509 -noout -fingerprint
 `
 
+* Get private key from p12
+`openssl pkcs12 -in yourP12File.pfx -nocerts -out privateKey.pem`
+
+* Get certificate from p12
+`openssl pkcs12 -in yourP12File.pfx -clcerts -nokeys -out publicCert.pem`
+
 HowTo...
 ========
 
