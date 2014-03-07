@@ -32,10 +32,10 @@ Get information about a p12 file
 `
 
 * Get private key from p12
-`openssl pkcs12 -in yourP12File.pfx -nocerts -out privateKey.pem`
+`openssl pkcs12 -in yourP12File.p12 -nocerts -out privateKey.pem`
 
 * Get certificate from p12
-`openssl pkcs12 -in yourP12File.pfx -clcerts -nokeys -out publicCert.pem`
+`openssl pkcs12 -in yourP12File.p12 -clcerts -nokeys -out publicCert.pem`
 
 HowTo...
 ========
