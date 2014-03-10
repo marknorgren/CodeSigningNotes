@@ -60,6 +60,12 @@ HowTo...
 
 `security import pub_key.pem -k ~/Library/Keychains/login.keychain`
 
+* Verify a SHA-1 digest on OS X
+
+`openssl sha1 <file>`
+
+[Apple source](http://support.apple.com/kb/ht1652)
+
 Resources
 ==============
 
