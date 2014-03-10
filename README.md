@@ -21,6 +21,14 @@ X.509
 [Wikipedia Link](http://en.wikipedia.org/wiki/X.509)
 
 
+CSR - Certificate Signing Request
+---------------------------------
+
+Get text info about a CSR file
+
+`openssl req -noout -text -in csr-file-name.csr`
+
+
 p12 file
 --------
 
