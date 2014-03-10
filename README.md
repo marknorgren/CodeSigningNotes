@@ -40,10 +40,16 @@ Get information about a p12 file
 `
 
 * Get private key from p12
+
 `openssl pkcs12 -in yourP12File.p12 -nocerts -out privateKey.pem`
 
 * Get certificate from p12
+
 `openssl pkcs12 -in yourP12File.p12 -clcerts -nokeys -out publicCert.pem`
+
+Using `keytool` to dump information about a p12 with CertAndKey
+
+`keytool -list -v -storetype pkcs12 -keystore <keyStore.p12>`
 
 HowTo...
 ========
