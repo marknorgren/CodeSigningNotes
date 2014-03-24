@@ -20,6 +20,7 @@ openssl smime -in "$1" -inform DER -verify > $TMPFILENAME
 open $RANDOMFILENAME
 ```
 
+source: [360idev-jay-graves-provisioning-profiles-like-a-pro](http://www.doubleencore.com/2013/09/360idev-jay-graves-provisioning-profiles-like-a-pro/)
 
 PEM file
 -------
