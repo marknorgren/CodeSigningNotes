@@ -16,7 +16,7 @@ Shell script
 ```
 #Opens file in Xcode
 RANDOMFILENAME=/tmp/provision_$RANDOM.plist
-openssl smime -in "$1" -inform DER -verify > $TMPFILENAME
+openssl smime -in "$1" -inform DER -verify > $RANDOMFILENAME
 open $RANDOMFILENAME
 ```
 
