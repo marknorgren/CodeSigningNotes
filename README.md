@@ -3,6 +3,10 @@ CodeSigningNotes
 
 Notes on Code Signing (Certs, Keys, etc.)
 
+XCode 5 Provisioning Profiles Location
+--------------------------------------
+`~/Library/MobileDevice/Provisioning Profiles`
+
 
 PEM file
 -------
