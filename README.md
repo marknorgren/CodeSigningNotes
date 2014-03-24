@@ -8,6 +8,19 @@ XCode 5 Provisioning Profiles Location
 `~/Library/MobileDevice/Provisioning Profiles`
 
 
+Automator action for viewing Provisioning Profile information
+-------------------------------------------------------------
+![Automator Service Screenshot](screenshots/VerifyProvisioningProfile_workflow.png)
+
+Shell script
+```
+#Opens file in Xcode
+RANDOMFILENAME=/tmp/provision_$RANDOM.plist
+openssl smime -in "$1" -inform DER -verify > $TMPFILENAME
+open $RANDOMFILENAME
+```
+
+
 PEM file
 -------
 
