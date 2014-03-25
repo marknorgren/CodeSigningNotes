@@ -8,6 +8,10 @@ XCode 5 Provisioning Profiles Location
 `~/Library/MobileDevice/Provisioning Profiles`
 
 
+Quick Look for Provisioning Profiles
+-------------------------------------
+https://github.com/chockenberry/Provisioning
+
 Automator action for viewing Provisioning Profile information
 -------------------------------------------------------------
 ![Automator Service Screenshot](screenshots/VerifyProvisioningProfile_workflow.png)
