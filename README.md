@@ -57,6 +57,9 @@ CSR - Certificate Signing Request
 * Get text info about a CSR file
 
     `openssl req -noout -text -in csr-file-name.csr`
+    
+* 'A CSR is useless once you have the cert'
+  * http://security.stackexchange.com/a/37945
 
 
 p12 file
