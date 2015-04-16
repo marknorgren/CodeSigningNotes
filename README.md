@@ -13,9 +13,7 @@ Quick Look for Provisioning Profiles
 -------------------------------------
 https://github.com/chockenberry/Provisioning
 
-Automator action for viewing Provisioning Profile information
--------------------------------------------------------------
-![Automator Service Screenshot](screenshots/VerifyProvisioningProfile_workflow.png)
+
 
 Shell script
     ```
@@ -109,6 +107,10 @@ How to resign ipa files.
     `openssl sha1 <file>`
 
 [Apple source](http://support.apple.com/kb/ht1652)
+
+Automator action for viewing Provisioning Profile information
+-------------------------------------------------------------
+![Automator Service Screenshot](screenshots/VerifyProvisioningProfile_workflow.png)
 
 Resources
 ==============
