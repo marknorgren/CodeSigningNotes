@@ -9,6 +9,16 @@ Xcode Provisioning Profiles Location
   `~/Library/MobileDevice/Provisioning Profiles`
 
 
+## Code Resigning
+
+How to resign ipa files.
+
+* https://github.com/felipesabino/provise/
+* http://stackoverflow.com/questions/6896029/re-sign-ipa-iphone/6921689#6921689
+* https://github.com/maciekish/iReSign
+* https://github.com/talk-to/resign-ipa
+* https://gist.github.com/mediabounds/1367348
+
 Quick Look for Provisioning Profiles
 -------------------------------------
 https://github.com/chockenberry/Provisioning
@@ -85,12 +95,7 @@ Using `keytool` to dump information about a p12 with CertAndKey
 HowTo...
 ========
 
-## Code Resigning
 
-How to resign ipa files.
-
-* https://github.com/felipesabino/provise/
-* http://stackoverflow.com/questions/6896029/re-sign-ipa-iphone/6921689#6921689
 
 ## Importing Keys
 
