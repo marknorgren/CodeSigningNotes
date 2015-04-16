@@ -3,10 +3,10 @@ CodeSigningNotes
 
 Notes on Code Signing (Certs, Keys, etc.)
 
-XCode 5 Provisioning Profiles Location
+Xcode Provisioning Profiles Location
 --------------------------------------
-    
-    `~/Library/MobileDevice/Provisioning Profiles`
+
+  `~/Library/MobileDevice/Provisioning Profiles`
 
 
 Quick Look for Provisioning Profiles
@@ -87,11 +87,22 @@ Using `keytool` to dump information about a p12 with CertAndKey
 HowTo...
 ========
 
+## Code Resigning
+
+How to resign ipa files.
+
+* https://github.com/felipesabino/provise/
+* http://stackoverflow.com/questions/6896029/re-sign-ipa-iphone/6921689#6921689
+
+## Importing Keys
+
 * Import public/private keys into Mac OS X Keychain (don't just double click them!)
 
     `security import priv_key.p12 -k ~/Library/Keychains/login.keychain`
 
     `security import pub_key.pem -k ~/Library/Keychains/login.keychain`
+
+## Verifying SHA
 
 * Verify a SHA-1 digest on OS X
 
