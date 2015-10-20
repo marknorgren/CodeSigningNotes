@@ -1,6 +1,13 @@
 CodeSigningNotes
 ================
 
+## Articles / Overview
+
+* [Inside code signing](https://www.objc.io/issues/17-security/inside-code-signing/)
+* [Apple - Code Signing Guide](https://developer.apple.com/library/ios/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html)
+* [Apple - iOS Code Signing Troubleshooting Index](https://developer.apple.com/library/ios/technotes/tn2407/_index.html)
+* [Apple - Maintaining Your Signing Identities and Certificates](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html)
+
 Notes on Code Signing (Certs, Keys, etc.)
 
 Xcode Provisioning Profiles Location
